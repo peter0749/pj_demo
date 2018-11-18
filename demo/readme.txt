@@ -1,10 +1,10 @@
 unwarpping demo
 
+put ensemble.h5 here
+
 python manage.py migrate
 python manage.py makemigrations unwrap
 python manage.py migrate
-
-and place model.h5 here
 
 python manage.py runserver
 
